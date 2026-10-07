@@ -1,0 +1,5 @@
+Movie Recommendation System
+
+No external dependencies are required.
+
+Python 3.8+ is recommended.

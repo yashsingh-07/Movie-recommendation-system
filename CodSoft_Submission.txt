@@ -1,0 +1,167 @@
+CodSoft Internship - Task 3 Submission
+
+Project Title
+
+Movie Recommendation System
+
+Task
+
+CodSoft Internship - Task 3: Recommendation System
+
+Project Description
+
+I developed a Python-based movie recommendation system that suggests movies to users based on the content of a movie they select.
+
+The system uses content-based filtering to compare movie genres and descriptions. It converts the movie content into numerical representations using TF-IDF and calculates similarity between movies using cosine similarity.
+
+The system then ranks the movies based on their similarity and recommends the most relevant movies to the user.
+
+Main Features
+
+- Movie recommendation based on user preference
+- Content-based filtering
+- TF-IDF text representation
+- Cosine similarity calculation
+- Movie search
+- List of available movies
+- Top 5 movie recommendations
+- Similarity scores
+- Invalid movie handling
+- Command-line interface
+- No external Python packages required
+
+Recommendation Technique
+
+The project uses Content-Based Filtering.
+
+The system analyzes the characteristics of movies, including:
+
+- Genres
+- Movie descriptions
+- Keywords
+
+Movies with similar content receive higher similarity scores and are recommended to the user.
+
+How It Works
+
+User selects a movie
+        ↓
+Find the selected movie
+        ↓
+Combine genre and description
+        ↓
+Clean and process the text
+        ↓
+Calculate TF-IDF vectors
+        ↓
+Calculate cosine similarity
+        ↓
+Rank similar movies
+        ↓
+Recommend top movies
+
+Technologies Used
+
+- Python 3
+- TF-IDF
+- Cosine Similarity
+- "math" library
+- "re" library
+
+The project does not require external Python packages.
+
+How to Run
+
+Open Command Prompt or Terminal in the project folder and run:
+
+python recommendation_system.py
+
+Example
+
+Enter a movie you like: Inception
+
+Recommended Movies:
+----------------------------------------
+1. The Matrix
+2. Interstellar
+3. Avengers: Endgame
+4. A Quiet Place
+5. Iron Man
+
+The exact recommendation order and similarity scores are calculated by the program.
+
+Dataset
+
+The project currently contains a small collection of movies from different genres, including:
+
+- Science Fiction
+- Action
+- Adventure
+- Drama
+- Romance
+- Comedy
+- Animation
+- Horror
+- Thriller
+- Superhero
+
+Learning Outcomes
+
+Through this project, I learned and practiced:
+
+- Python programming
+- Recommendation system fundamentals
+- Content-based filtering
+- TF-IDF
+- Cosine similarity
+- Text processing
+- Mathematical calculations
+- Lists and dictionaries
+- Functions
+- Loops
+- User input handling
+- GitHub project management
+
+Testing
+
+The system was tested with different movie selections to verify:
+
+- Movie search
+- Recommendation generation
+- Similarity calculations
+- Invalid movie handling
+- Available movie listing
+- Exit functionality
+
+Future Improvements
+
+Possible improvements include:
+
+- Using a larger movie dataset
+- Adding user ratings
+- Implementing collaborative filtering
+- Creating a hybrid recommendation system
+- Adding a graphical user interface
+- Adding movie posters
+- Adding movie details and ratings
+- Connecting to a movie database API
+
+CodSoft Internship Details
+
+Internship: CodSoft Internship
+Task: Task 3 - Recommendation System
+Project: Movie Recommendation System
+Programming Language: Python
+Recommendation Technique: Content-Based Filtering
+
+Conclusion
+
+This project demonstrates the implementation of a simple recommendation system using content-based filtering.
+
+By using TF-IDF and cosine similarity, the system can identify movies with similar characteristics and recommend them based on the user's selected movie.
+
+This project provided practical experience with Python, text processing, similarity measurement, and recommendation system concepts.
+
+Submitted by: Nishesh Raj Singh
+Program: BTech CSE (AI/ML)
+Year: 1st Year
